@@ -22,7 +22,7 @@ IndexError                                Traceback (most recent call last)
 Cell In[23], line 5
       2 i_menor_valor = vendas_1sem.index(menor_valor)
       4 print('O melhor mês do ano foi {} com {} vendas'.format(meses[i_maior_valor], maior_valor))
-----> 5 print('O pior mês do ano foi {} com {} vendas'.format(meses[i_menor_valor], menor_valor)) #Esse erro me deu muito trabalho pra corrigir, depois de muito tempo debugando o codigo encontrei a vrigula fantando na primeira linha da variavel meses (entre jul e agosto)
+----> 5 print('O pior mês do ano foi {} com {} vendas'.format(meses[i_menor_valor], menor_valor))
       7 fat_total = sum(vendas_1sem)
       8 print('Faturamento Total: R$ {:,}'.format(fat_total))
 
